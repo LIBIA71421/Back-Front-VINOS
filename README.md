@@ -71,3 +71,46 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## JSON POSTMAN
+
+{
+        "id": 1,
+        "nombre": "Trivarietal",
+        "cantidad": 750,
+        "marca": "Campos de Solana ",
+        "anio": 2015,
+        "tipo": "tinto"
+    },
+    {
+        "id": 2,
+        "nombre": "Tannat Único",
+        "cantidad": 750,
+        "marca": "Campos de Solana ",
+        "anio": 2016,
+        "tipo": "tinto"
+    },
+    {
+        "id": 3,
+        "nombre": "Pinnot Noir",
+        "cantidad": 750,
+        "marca": "Bodegas Landsua",
+        "anio": 2016,
+        "tipo": "frutal"
+    },
+    {
+        "id": 4,
+        "nombre": "Ira Malbec",
+        "cantidad": 750,
+        "marca": "Pispi",
+        "anio": 2016,
+        "tipo": "tinto"
+    },
+    {
+        "id": 5,
+        "nombre": "Rutini Wines",
+        "cantidad": 750,
+        "marca": "Trumpeter",
+        "anio": 2016,
+        "tipo": "tinto"
+    }
