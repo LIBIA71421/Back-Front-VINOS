@@ -12,7 +12,7 @@ import { Vino } from "./vinos/entities/vino.entity";
       port: 3306,
       username: 'root',
       password: 'gsoso479+-+u',
-      database: 'vinos',
+      database: 'vinos_db',
       synchronize: true,
       autoLoadEntities: true,
     }

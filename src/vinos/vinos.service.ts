@@ -17,11 +17,11 @@ export class VinosService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} vino`;
+    return this.vinoRepository.findOne({ where: { id: id } });
   }
 
   update(id: number, updateVinoDto: UpdateVinoDto) {
-    return this.vinoRepository.update({ id }, { ...updateVinoDto });
+    return this.vinoRepository.update(id, updateVinoDto);
   }
 
   remove(id: number) {
